@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD><TITLE>"COORDINATES X AND Y</TITLE></HEAD>
+<BODY>
+<P>Mouse coordinates: clientX(Y),pageX(Y)
+There is a great cross-browser property pair clientX/clientY which contain coordinates<BR/>
+ relative to window.
+
+If your window is 500x500, and the mouse is in the center, then clientX and clientY are 
+both equal to 250.
+If you scroll down, left or up without moving the mouse - the values of clientX/clientY don't change, 
+because they are relative to the window, not the document.
+Move the mouse over the input to see clientX/clientY
+</P>
+<input onmousemove="this.value = event.clientX+':'+event.clientY">
+<P>
+The W3C standard provides a property pair pageX/pageY for that.
+
+If your window is 500x500, and the mouse is in the middle, then both pageX and pageY equal 250.
+If you scroll it 250 pixels down, the value of pageY becomes 500.
+
+So, the pair pageX/pageY contains coordinates relative to document top-left corner, with all scrolls.
+
+They are supported by all browsers except IE&lt;9.
+
+Move the mouse over the input to see pageX/pageY (except IE &lt;9):</P><BR/>
+<input onmousemove="this.value = event.pageX+':'+event.pageY">
+</BODY>
+</HTML>

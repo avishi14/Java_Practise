@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+
+<script type="text/javascript">
+  function printData(){
+    var username = document.Student.usname.value;
+    var Age= document.Student.age.value;
+    var Gender = document.Student.gender.value;
+    var Color = document.Student.color.value;
+    var Courses = document.Student.courses.value;
+
+    document.write (username);
+    document.write (Age);
+    document.write (Gender);
+    document.write (Color);
+    document.write (Courses);
+  }
+</script>
+
+
+  </head>
+  <body>
+    <form name="Student">
+<TABLE align= "center" BORDER CELLPADDING=10>
+  <tr>
+    <td>Name: <INPUT TYPE=text NAME="usname" VALUE="uname" SIZE=15></td>
+  </tr>
+  <tr>
+    <td>Age: <INPUT TYPE=text NAME="age" VALUE="age_age" SIZE=15></td>
+  </tr>
+  <tr>
+    <td>Gender
+      <INPUT TYPE=radio name="gender" VALUE="male">Male
+      <INPUT TYPE=radio name="gender" VALUE="female">Female
+    </td>
+  </tr>
+  <tr>
+    <td align="center">Color
+    <SELECT NAME="color">
+        <OPTION VALUE="Red">Red
+        <OPTION VALUE="Yellow">Yellow
+        <OPTION VALUE="White">White
+        <OPTION VALUE="Green">Green
+      </SELECT>
+    </td>
+  </tr>
+  <tr>
+    <td>Courses <br>
+      <INPUT TYPE=radio name="courses" VALUE="B.Tech">Btech
+      <INPUT TYPE=radio name="courses" VALUE="B.com">B.com  <br>
+        <INPUT TYPE=radio name="courses" VALUE="B.sc">B.Sc
+        <INPUT TYPE=radio name="courses" VALUE="B.A">B.A
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <INPUT TYPE=submit NAME="submitbutton" VALUE="Submit" CELLPADDING=5 onclick="printData();">
+
+    </td>
+  </tr>
+  </table>
+    </form>
+  </body>
+</html>

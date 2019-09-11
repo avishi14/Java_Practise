@@ -1,0 +1,51 @@
+<script type="text/javascript">
+//array
+var my_array = [10, "ten", true];
+my_array[0];
+my_array[1];
+my_array[2];
+
+document.write( my_array[0] + "<BR>");
+document.write( my_array[1] + "<BR>");
+document.write( my_array[2] + "<BR>");
+
+
+var counter = 0;
+var numbers = new Array();
+
+while ( counter < 49 ) {
+
+numbers[counter] = counter + 1; 
+document.write( numbers[counter]+" " );
+counter++;
+}//split
+var email = "abc@email1.com, def@email.com, xyz@email3.com";
+var email_array = email.split(',');
+document.write(email_array+"<BR>");
+//join
+var email_array = email.split(',');
+var new_array = email_array.join('-');
+document.write(new_array);
+
+var i;
+
+for ( i=0; i < email_array.length; i++ ) {
+
+document.write( email_array[i] + "<BR>" );
+
+}
+//datetime
+var thedate = new Date();
+document.write( thedate + "<BR>");
+var the_date = new Date();
+var year = the_date.getFullYear();
+document.write(year + "<BR>");
+
+
+
+
+
+
+
+
+</script>

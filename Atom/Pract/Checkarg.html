@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<HEAD>
+<title>  ARG CHECK</title>
+</HEAD>
+<BODY>
+<SCRIPT type="text/javascript">
+function f(x, y, z)
+{
+    // first, check that the right # of arguments were passed.
+    if (f.arguments.length != 3) {
+        alert("function f called with " + f.arguments.length +
+              "arguments, but it expects 3 arguments.");
+        return null;
+    }
+    else {
+      document.write("done");
+      alert("Enter 3 values");
+    }
+
+    // now do the actual function...
+}
+
+//<INPUT type="Button" name="submit" value="submit" onclick="f(1,2,3)">
+</SCRIPT>
+<INPUT type="Button" name="submit" value="submit" onclick="f(1,2,3,4)">
+
+</BODY>
+</HTML>

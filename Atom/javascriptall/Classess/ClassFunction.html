@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<h1>Class Function in JavaScript</h1>
+	<p id="p1"></p>
+	
+	<script>    
+	function Employee() {
+            this.firstName = "unknown";
+            this.lastName = "unknown";
+            this.getFullName = function(){
+                return this.firstName + " " + this.lastName;
+            }
+        };
+
+	var emp1 = new Employee();
+	emp1.firstName = "John";
+	emp1.lastName = "D'Souza";
+
+	alert(emp1.getFullName());
+     
+	var emp2 = new Employee();
+	emp2.firstName = "Marie";
+	emp2.lastName = "Gold";
+
+	alert(emp2.getFullName());
+	</script>	
+</body>
+</html>

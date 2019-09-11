@@ -1,0 +1,10 @@
+<script>
+
+document.onmousemove = function(e) {
+  e = e || window.event
+  fixPageXY(e)
+
+  document.getElementById('mouseX').value = e.pageX
+  document.getElementById('mouseY').value = e.pageY
+}
+</script>

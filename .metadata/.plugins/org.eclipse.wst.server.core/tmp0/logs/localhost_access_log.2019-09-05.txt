@@ -1,0 +1,8 @@
+127.0.0.1 - - [05/Sep/2019:15:36:54 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [05/Sep/2019:15:36:55 +0530] "GET /AKIA/index.jsp HTTP/1.1" 200 448
+0:0:0:0:0:0:0:1 - - [05/Sep/2019:15:36:55 +0530] "GET /AKIA/AKIA_icon.jpeg HTTP/1.1" 200 27458
+0:0:0:0:0:0:0:1 - - [05/Sep/2019:15:37:08 +0530] "GET /AKIA/LoginPage.jsp HTTP/1.1" 200 1026
+0:0:0:0:0:0:0:1 - - [05/Sep/2019:15:37:17 +0530] "GET /AKIA/SignupPage.jsp HTTP/1.1" 200 2914
+0:0:0:0:0:0:0:1 - - [05/Sep/2019:15:37:32 +0530] "GET /AKIA/LoginPage.jsp HTTP/1.1" 200 1026
+0:0:0:0:0:0:0:1 - - [05/Sep/2019:15:37:37 +0530] "GET /AKIA/SignupPage.jsp HTTP/1.1" 200 2914
+0:0:0:0:0:0:0:1 - - [05/Sep/2019:15:38:23 +0530] "GET /AKIA/ServletRegister?nameRegister=Avishi&usernameRegister=Avishi&contactRegister=1234567898&addressRegister=home&passwordRegister=1234 HTTP/1.1" 404 1098

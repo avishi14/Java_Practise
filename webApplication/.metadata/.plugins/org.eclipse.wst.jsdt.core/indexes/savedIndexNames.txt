@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+D:\Java\avishi\webApplication\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1740111320.index
+4182781119.index
+3559563562.index
+2554525233.index
+1136532124.index
+2934995691.index
+938093803.index

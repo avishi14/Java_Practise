@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>The local variable bookName cannot be accessed from  outside the function and global <wbr>variable</wbr> can be accessed from anywhere in the script.
+
+
+</p>
+
+<p id="test"></p>
+
+<script>
+var qty=12;
+var string1="National";
+document.write("Out side Function1 Quantity is "+ qty+"<br>");
+Function1();
+document.getElementById("test").innerHTML =
+"The type of bookName is local in Function1 " + typeof bookName+"<br>";
+document.getElementById("test").innerHTML ="The length of string1 is: "+ string1.length+"<br>";
+function Function1() {
+    var bookName = "Javascript";
+	qty=21;
+	document.write("In Function1 "+bookName + "has " + qty+"<br>");
+	document.write(bookName.length+"<br>");
+//string part
+
+document.write("We are happy to see \" the world of disney\" in India. It\'s fun world");
+
+	}
+</script>
+
+</body>
+</html>

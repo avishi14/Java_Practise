@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<h1>Constructor Example</h1>
+	
+	<script>    
+	function Employee(FirstName, LastName, Age) {
+        this.firstName = FirstName || "unknown";
+        this.lastName = LastName || "unknown";
+        this.age = Age || 25;
+        this.getFullName = function () {
+            return this.firstName + " " + this.lastName;
+        }
+	};
+
+	var emp1 = new Employee("Radha","Jog",35);
+	alert(emp1.getFullName());
+
+	var emp2 = new Employee("Sarita","Pandey");
+	alert(emp2.getFullName());
+	</script>	
+</body>
+</html>

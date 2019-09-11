@@ -1,0 +1,42 @@
+<script type"text/javascript">
+
+var my_array=[10,"ten",true];
+
+my_array[0];
+my_array[1];
+my_array[2];
+
+for(i=0;i<my_array.length;i++)
+{
+	document.write(my_array[i]+"<br>");
+}
+document.write(2 + true+"<br>");
+
+var counter=0;
+var numbers=new Array();
+
+while(counter<49)
+{
+numbers[counter]=counter+1;
+document.write(numbers[counter]+" ");
+counter++;
+}
+document.write("<br>");
+
+var email="abc@email.com,def@email.com,ghi@email.com";
+var newemail=email.split(',');
+document.write(newemail+"<br>");
+
+
+var newdate=new Date();
+document.write(newdate +"<br>");
+var year=newdate.getFullYear();
+document.write(year+"<br>");
+
+var x=Math.PI;
+var y=Math.sqrt(4);
+document.write(x+ "<br>"+ y);
+
+
+
+</script>

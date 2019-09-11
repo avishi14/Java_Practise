@@ -1,0 +1,8 @@
+package Calculator;
+
+public class PojoCalculate {
+int quantity;
+String name;
+int price;
+
+}

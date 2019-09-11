@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<table width='50%' border='1px'>
+<tr>
+<td> Product Name </td> <td>Quantity</td><td>Price</td>
+</tr>
+<tr>
+<td> Soap</td> <td>1</td><td>50</td>
+</tr>
+<tr>
+<td> Shampoo </td> <td>1</td><td>120</td>
+</tr>
+<tr>
+<td> ToothBrush </td> <td>1</td><td>50</td>
+</tr>
+<tr>
+<td> Soap</td> <td>1</td><td>50</td>
+</tr>
+</table>
+<form action ="Login" method="post">
+Product Name:<input type="text" name="prname"/><br>
+Quantity: <input type="text" name="qty"/><br>
+<input type="submit" name="AddToCart" value="submit" /><br>
+</form>
+
+</body>
+</html>

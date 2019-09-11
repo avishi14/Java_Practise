@@ -1,0 +1,26 @@
+package AgeTest;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class ElementsFromArrayListExample {
+	public static void main(String[] args) {
+        List<String> programmingLanguages = new ArrayList<>();
+        programmingLanguages.add("C");
+        programmingLanguages.add("C++");
+        programmingLanguages.add("Java");
+        programmingLanguages.add("Kotlin");
+        programmingLanguages.add("Python");
+        programmingLanguages.add("Perl");
+        programmingLanguages.add("Ruby");
+        System.out.println("Initial List: " + programmingLanguages);
+   
+       // programmingLanguages.contains("Java");
+        List<String> answer = programmingLanguages.stream().filter(s->s.contains("Java"))
+        		.map(String::toUpperCase).collect(Collectors.toList()); 
+        System.out.println(answer); 
+        
+	}
+}
+

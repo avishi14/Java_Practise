@@ -1,0 +1,24 @@
+
+import java.util.Scanner;
+
+public class Sum {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		int sum,a,b;
+		Scanner in = new Scanner(System.in);
+		System.out.println("Enter first number: ");
+		a = in.nextInt();
+		
+		System.out.println("Enter second number: ");
+		b = in.nextInt();
+		
+		sum = a + b;
+		
+		System.out.println("The sum of two nuber is: "+ sum);
+	}
+
+}

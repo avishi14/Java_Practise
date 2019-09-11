@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<table width='50%' border='1px'>
+<tr>
+<td> Product Name </td> <td>Quantity</td><td>Price</td>
+</tr>
+<tr>
+<td> Soap</td> <td>1</td><td>50</td>
+</tr>
+<tr>
+<td> Shampoo </td> <td>1</td><td>120</td>
+</tr>
+<tr>
+<td> ToothBrush </td> <td>1</td><td>40</td>
+</tr>
+<tr>
+<td> HairWash </td> <td>1</td><td>100</td>
+</tr>
+</table>
+<form action ="CalculatorService" method="post"><br><br>
+Product Name:<input type="text" name="prname"/>
+Quantity: <input type="text" name="qty"/><br><br>
+<input type="submit" name="AddToCart" value="AddToCart" />
+</form>
+<form action ="CalculatorService" method="post">
+<input type="submit" name="Calculate" value="Calculate" />
+</form> 
+</body>
+</html>

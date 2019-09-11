@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="Px">"Delhi is the capital of India. Delhi has Parliament"</p>
+
+<button onclick="myFunction()">Get it</button>
+
+<p id="demo">search the string within string </p>
+
+<script>
+function myFunction() {
+    var str = document.getElementById("Px").innerHTML;
+	var str1=document.getElementById("demo").innerHTML;
+    var pos = str.indexOf("India");
+	var last=str.lastIndexOf("Delhi");
+	var ser=str1.search("string");
+    document.getElementById("Px").innerHTML = "Index of value is" + pos +" Last index of value is"+last;
+	
+	document.getElementById("demo").innerHTML="<br>Searched string is at "+ ser +"Position";
+}
+</script>
+
+</body>
+</html>
+

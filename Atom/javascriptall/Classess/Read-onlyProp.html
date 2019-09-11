@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<h1>Example Read-only property</h1>
+	
+	<script>    
+	function Student(firstName) {
+
+		var _firstName = firstName || "unknown";
+
+        Object.defineProperties(this, {
+            "FirstName": {
+                get: function () {
+                    return _firstName;
+                }
+            }
+        });
+    };
+	var stud1 = new Student("Nishant");
+	//stud1.FirstName = "Nishant"; //will not work
+	alert(stud1.FirstName );
+            
+	var stud2 = new Student("Gourav");
+	//stud2.FirstName = "Gourav"; // will not work
+	alert(stud2.FirstName);
+	</script>	
+</body>
+</html>

@@ -1,0 +1,15 @@
+<SCRIPTsrc>
+var count = 0;
+var text = "This is a test of a JavaScript scroller. ";
+scroll();
+function  scroll () {
+        var myString = text.substring (count, text.length) + text.substring (0, count)
+        window.status = myString
+        if (count < text.length)
+                count ++;
+        else
+                count = 0;
+        setTimeout ("scroll()", 333);
+        // 333ms is the minimum delay for Netscape 2.0
+}
+</SCRIPT>

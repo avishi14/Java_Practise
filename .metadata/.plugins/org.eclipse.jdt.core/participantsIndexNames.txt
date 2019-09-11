@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+D:\Java\avishi\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4156767800.index
+\AKIA\src
+D:\Java\avishi\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1859992344.index
+\AKIA\src
+D:\Java\avishi\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1763183689.index
+\AKIA\src
+D:\Java\avishi\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1941252899.index
+\AKIA\src

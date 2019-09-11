@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<h1>Example Getter & Setter</h1>
+	
+	<script>    
+	function Employee() {
+		var _firstName = "unknown";
+
+		Object.defineProperties(this, {
+			"FirstName": {
+				get: function () {
+					return _firstName;
+				},
+				set: function (value) {
+					_firstName = value;
+				}
+			}
+		});
+	};
+
+	var emp1 = new Employee();
+	emp1.FirstName = "Trisha";
+	alert(emp1.FirstName );
+            
+	var emp2 = new Employee();
+	emp2.FirstName = "Nisha";
+	alert(emp2.FirstName );
+	</script>	
+</body>
+</html>
